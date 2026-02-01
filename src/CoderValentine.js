@@ -79,7 +79,7 @@ const CoderValentine = () => {
             {step === 1 && (
               <motion.div key="step1" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
                 <h2 className="text-[#ff79c6] text-xl mb-2 font-bold underline">SECURITY CHECK: Human_Verification</h2>
-                <p className="text-gray-400 mb-6 text-xs italic">// Select the target 'Good Boy' to decrypt the proposal</p>
+                <p className="text-gray-400 mb-6 text-xs italic"> Select the target 'Good Boy' to decrypt the proposal</p>
                 
                 <div className="grid grid-cols-3 gap-3 mb-8">
                   {[
@@ -149,7 +149,7 @@ const CoderValentine = () => {
 
                 <div className="p-4 bg-[#0d1117] rounded border border-[#ffb86c]/30">
                   <p className="text-[#ffb86c] text-[11px] leading-relaxed">
-                    <span className="font-bold">// TERMS_OF_SERVICE:</span><br />
+                    <span className="font-bold"> TERMS_OF_SERVICE:</span><br />
                     Agreement includes 24/7 technical support for my mood swings, mandatory sharing of fries, and infinite head scratches.
                   </p>
                 </div>
